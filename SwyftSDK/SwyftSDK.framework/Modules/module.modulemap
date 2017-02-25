@@ -1,0 +1,10 @@
+framework module SwyftSDK {
+  umbrella header "SwyftSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SwyftSDK.Swift {
+    header "SwyftSDK-Swift.h"
+}
